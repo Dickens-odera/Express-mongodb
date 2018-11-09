@@ -1,0 +1,22 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "a simple example project to illustrate how to work with express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "*",
+    "express": "^4.16.4",
+    "mongodb": "*",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "author": "Dickens Odera",
+  "license": "MIT"
+}
