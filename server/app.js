@@ -8,9 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 var Products = require("./models/products");
 var Prices = require("./models/prices");
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.json());
 mongoose.connect("mongodb://localhost/products");
 var db = mongoose.connection;
 if(db){
